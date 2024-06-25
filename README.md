@@ -5,7 +5,7 @@ This project is a responsive webpage built with Next.js and React Icons, demonst
 ## Running the project locally
 
 1. Clone the repository:
-    https://github.com/Bahi-slh/nextjs-showcase
+    git clone https://github.com/Bahi-slh/nextjs-showcase.git
 
 2. Navigate to the project directory:
     cd nextjs-showcase
