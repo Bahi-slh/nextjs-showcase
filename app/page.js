@@ -10,11 +10,11 @@ export default function Home() {
     <div className="min-h-screen bg-gray-100">
       <Bar />
       <Header />
-      <div className="container mx-auto max-w-2xl p-6 bg-white rounded-lg shadow-md">
+      <main className="container mx-auto max-w-2xl p-6 bg-white rounded-lg shadow-md">
         <InfoCard />
         <Checklist />
         <Button />
-      </div>
+      </main>
     </div>
   )
 }
