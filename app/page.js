@@ -13,6 +13,7 @@ export default function Home() {
       <div className="container mx-auto max-w-2xl p-6 bg-white rounded-lg shadow-md">
         <InfoCard />
         <Checklist />
+        <Button />
       </div>
     </div>
   )
