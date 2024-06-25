@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Showcase
 
-## Getting Started
+This project is a responsive webpage built with Next.js and React Icons, demonstrating a layout with a top bar, header, info card, checklist, and button components.
 
-First, run the development server:
+## Running the project locally
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
+    https://github.com/Bahi-slh/nextjs-showcase
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory:
+    cd nextjs-showcase
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Install dependencies:
+    npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. Run the development server:
+    npm run dev
 
-## Learn More
+5. Open [http://localhost:3000] in your browser to view the project.
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `components/Bar.jsx`: Top bar component with Support icon
+- `components/Header.jsx`: Header component
+- `components/InfoCard.jsx`: Information card component
+- `components/Checklist.jsx`: Checklist component
+- `components/Button.jsx`: Button component
+- `app/page.js`: Main page layout
+- `app/globals.css`: Global styles
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technologies Used
 
-## Deploy on Vercel
+- Next.js
+- React Icons
+- Tailwind CSS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Development Time
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project was completed within a 2-hour timeframe as part of a technical assessment.
